@@ -1,0 +1,110 @@
+/*
+COLOR :
+
+blue soft : #EEF6FF
+blue : #DEEDFF
+black : #252525
+white : #
+
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* ----- NAVBAR ----- */
+
+nav {
+    background-color: #EEF6FF;
+    color: black;
+    padding: 2% 5%;
+    line-height: 3rem;
+
+    display: flex;
+}
+
+.navTitre {
+    font-family: 'Quagera', Arial, sans-serif;
+    font-size: 4rem;
+    margin-right: 2rem;
+}
+
+.navPage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.navPage>div>a {
+    padding: 0 1rem;
+}
+
+.navListe {
+    display: flex;
+    flex: auto;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #EEF6FF;
+    color: black;
+    padding: 2% 5%;
+}
+
+/* ----- MODIF ----- */
+
+a,
+a:hover,
+a:visited,
+a:link {
+    color: #252525;
+    text-decoration: none;
+}
+
+/* ----- XXX ----- */
+
+.header {
+    height: 800px;
+    background-color: #DEEDFF;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.headerTitre {
+    font-size: 8rem;
+    flex: auto;
+    font-family: 'Quagera', Arial, sans-serif;
+}
+
+.divMarque {
+    margin: 5% 10%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+}
+
+.divMarque>div>img {
+    width: 200px;
+    height: 200px;
+    margin-right: 2rem;
+}
+
+.divMarque> :first-child {
+    display: inline-block;
+    white-space: nowrap;
+    animation: defilement 15s infinite linear;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
