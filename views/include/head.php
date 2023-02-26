@@ -15,10 +15,10 @@
     <!-- Lien CSS -->
     <link href="<?php $_SERVER['DOCUMENT_ROOT'] . "/css/style.css" ?>" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="css/font-family/Quagera" type="text/css" rel="stylesheet">
 
     <link href="/GauMode/document/GLORIOUS.otf">
 
-    <!-- Icone Font Awesome -->
-    <script src="https://kit.fontawesome.com/814ded4c7d.js" crossorigin="anonymous"></script>
+    <!-- Icone Font Awesome (rodez) -->
+    <script src="https://kit.fontawesome.com/354b52c086.js" crossorigin="anonymous"></script>
 </head>

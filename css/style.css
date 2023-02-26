@@ -1,31 +1,44 @@
-/*
-COLOR :
-
-blue soft : #EEF6FF
-blue : #DEEDFF
-black : #252525
-white : #
+/* COLOR :
+Magnolia (violet très clair) : #F3F3FF
+Lavender (bleu) : #C5DEFA
+Azureish (white) : #E1F0F4
+Peach (Orange) : tan
+Onyx (black) : #353739
 
 */
+
+* {
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+
+    color: #353739;
+    font-style: italic;
+    background-color: #C5DEFA;
 }
 
 /* ----- NAVBAR ----- */
 
 nav {
-    background-color: #EEF6FF;
-    color: black;
+    background-color: #E1F0F4;
+    color: #353739;
     padding: 2% 5%;
     line-height: 3rem;
+    border-radius: 0 0 4rem 5rem;
 
     display: flex;
 }
 
 .navTitre {
     font-family: 'Quagera', Arial, sans-serif;
+    color: tan;
     font-size: 4rem;
     margin-right: 2rem;
 }
@@ -49,8 +62,8 @@ nav {
 /* ----- FOOTER ----- */
 
 footer {
-    background-color: #EEF6FF;
-    color: black;
+    background-color: #E1F0F4;
+    color: #353739;
     padding: 2% 5%;
 }
 
@@ -60,15 +73,29 @@ a,
 a:hover,
 a:visited,
 a:link {
-    color: #252525;
+    color: #353739;
     text-decoration: none;
 }
 
-/* ----- XXX ----- */
+i {
+    font-size: 2.5rem;
+    color: tan;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+/* ----- HEADER ----- */
 
 .header {
     height: 800px;
-    background-color: #DEEDFF;
+    background-color: #C5DEFA;
     display: flex;
     text-align: center;
     align-items: center;
@@ -78,14 +105,23 @@ a:link {
     font-size: 8rem;
     flex: auto;
     font-family: 'Quagera', Arial, sans-serif;
+    color: tan;
+    font-style: italic;
+}
+
+/* ----- XXX ----- */
+
+.secMarque {
+    background-color: white;
+    padding: 1%;
 }
 
 .divMarque {
-    margin: 5% 10%;
     background-color: white;
     overflow: hidden;
-    display: flex;
+    margin: 5% 10%;
 }
+
 
 .divMarque>div>img {
     width: 200px;
@@ -96,7 +132,7 @@ a:link {
 .divMarque> :first-child {
     display: inline-block;
     white-space: nowrap;
-    animation: defilement 15s infinite linear;
+    animation: defilement 30s infinite linear;
 }
 
 @keyframes defilement {
@@ -108,3 +144,62 @@ a:link {
         transform: translate3d(-50%, 0, 0);
     }
 }
+
+/* ----- XXX ----- */
+
+.secOutfit {
+    width: 100%;
+    display: flex;
+}
+
+.outfitTitreList {
+    width: calc(100% - 70%);
+    background-color: #E1F0F4;
+    padding: 0 1%;
+}
+
+.outfitTitreList>ul>li {
+    height: 100vh;
+    width: 100%;
+    font-size: 5rem;
+    font-family: 'Quagera', Arial, sans-serif;
+    color: tan;
+    list-style: none;
+}
+
+.outfitTitreList>ul {
+    margin: 0;
+}
+
+.divCacher {
+    width: 6rem;
+    height: 80px;
+    padding: 3%;
+    border-radius: 0 4rem 4rem 0;
+    background-color: #E1F0F4;
+
+    position: sticky;
+    top: 0;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%, 0);
+}
+
+.outfitList {
+    width: 70%;
+    background-color: #C5DEFA;
+}
+
+.outfit {
+    height: 100vh;
+    border-bottom: #E1F0F4 solid 5px;
+}
+
+.outfitTitre {
+    position: sticky;
+    top: 0;
+}
+
+/* ----- XXX ----- */
