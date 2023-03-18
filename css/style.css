@@ -102,11 +102,17 @@ h1 {
 }
 
 .headerTitre {
-    font-size: 8rem;
+    font-size: 15rem;
     flex: auto;
     font-family: 'Quagera', Arial, sans-serif;
-    color: tan;
+    color: #353739;
     font-style: italic;
+}
+
+.headerTitre>span {
+    margin: -2rem;
+    height: 270px !important;
+    width: 180px !important;
 }
 
 /* ----- XXX ----- */
@@ -203,3 +209,12 @@ h1 {
 }
 
 /* ----- XXX ----- */
+
+.secTitrePage {
+    align-items: center;
+    text-align: center;
+}
+
+.titrePage {
+    font-size: 8rem;
+}

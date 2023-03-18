@@ -4,7 +4,15 @@
     <?php include('include/navbar.php') ?>
 
     <section class="header">
-        <p class="headerTitre">GauMode</p>
+        <p class="headerTitre">
+            <span>G</span>
+            <span>a</span>
+            <span>u</span>
+            <span>M</span>
+            <span>o</span>
+            <span>d</span>
+            <span>e</span>
+        </p>
     </section>
 
     <section class="secMarque">
@@ -72,6 +80,7 @@
     </div>
 
     <script src="js/scroll.js" async></script>
+    <script src="js/style.js" async></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 var outfit = 0;
-
+/*
 window.addEventListener('wheel', function (event) {
     if (event.deltaY < 0) {
         outfit--
@@ -9,12 +9,14 @@ window.addEventListener('wheel', function (event) {
     if (outfit < 1)
         outfit = 1
 
-    test(outfit)
+    //console.log(outfit)
+    //let test = setInterval("test(" + outfit + ")", 500);
 });
 
+
 function test(value) {
-    console.log(value)
-    //document.querySelector('#btnotf' + value).click();
-    window.location.href = "http://localhost/GauMode/#otf" + value;
-    //window.location.assign("http://localhost/GauMode/#otf3")
+    console.log(value, "test")
+    document.querySelector('#btnotf' + value).click();
+    outfit = value;
 }
+*/
